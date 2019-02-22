@@ -14,6 +14,7 @@ body {
   margin: 120px 0px 100px 80px;
 }
 .main-container .left-side-bar .nav-container {
+  width: 100px;
   display: flex;
   padding: 10px;
   margin: 20px;
@@ -21,6 +22,11 @@ body {
 }
 .main-container .left-side-bar .nav-container .site-name {
   margin-top: 15px;
+  color: black;
+  font-size: 20px;
+}
+.main-container .left-side-bar .nav-container .site-name span {
+  color: black;
 }
 .main-container .left-side-bar .nav-container :nth-child(2) {
   margin-left: 50px;
