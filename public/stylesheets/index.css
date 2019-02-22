@@ -1,0 +1,115 @@
+body {
+  background-color: #35604c;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.main-container .left-side-bar {
+  width: 60%;
+  min-width: 800px;
+  background-color: #f2e3da;
+  height: 850px;
+  margin: 120px 0px 100px 80px;
+}
+.main-container .left-side-bar .nav-container {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  list-style-type: none;
+}
+.main-container .left-side-bar .nav-container .site-name {
+  margin-top: 15px;
+}
+.main-container .left-side-bar .nav-container :nth-child(2) {
+  margin-left: 50px;
+}
+.main-container .left-side-bar .nav-container div {
+  display: flex;
+  margin-left: 9em;
+}
+.main-container .left-side-bar .nav-container div img {
+  margin-top: 8px;
+  margin-left: 0;
+  width: 30px;
+  height: 30px;
+}
+.main-container .left-side-bar .nav-container div :nth-child(2) {
+  margin-left: 0px;
+}
+.main-container .left-side-bar .nav-container a {
+  padding: 15px 35px;
+  margin-left: 20px;
+  position: relative;
+  text-decoration: none;
+  position: relative;
+  color: #af9687;
+}
+.main-container .left-side-bar .bottom-title {
+  font-size: 200px;
+  letter-spacing: 20px;
+  opacity: 0.4;
+  font-family: "Six Caps", sans-serif;
+  display: flex;
+  margin-top: 1.5em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.main-container .left-side-bar .lip-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.main-container .left-side-bar .lip-img-container .lip-image {
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.8;
+}
+.main-container .right-side-bar {
+  width: 30%;
+  min-width: 400px;
+  background-color: white;
+  margin: 120px 80px 100px 0px;
+}
+.main-container .right-side-bar div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.main-container .right-side-bar div .top-square {
+  height: 400px;
+  background-color: #ead1c2;
+}
+.main-container .right-side-bar div .bottom-square {
+  height: 450px;
+  background-color: #ceb2a1;
+}
+.main-container .right-side-bar div .bottom-square .cart-link {
+  margin-top: 23em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.main-container .right-side-bar div .bottom-square :after {
+  content: "";
+  width: 20%;
+  position: absolute;
+  text-align: center;
+  left: 170px;
+  bottom: -10px;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+.main-container .right-side-bar div div img {
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */
