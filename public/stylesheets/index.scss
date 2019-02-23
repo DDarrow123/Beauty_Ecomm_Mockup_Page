@@ -7,8 +7,8 @@ body {
   flex-direction: row;
   .left-side-bar {
     width: 60%;
-    min-width: 800px;
-    max-width: 1000px;
+    min-width: 900px;
+    max-width: 900px;
     background-color: #f2e3da;
     height: 850px;
     margin: 120px 0px 100px 80px;
@@ -16,7 +16,7 @@ body {
       width: 100px;
       display: flex;
       padding: 10px;
-      margin: 20px;
+      margin: 30px;
       list-style-type: none;
       .site-name {
         margin-top: 15px;
@@ -26,19 +26,26 @@ body {
           color: black;
         }
       }
-      :nth-child(2) {
-        margin-left: 50px;
+      .oval-image {
+        width: 160px;
+        height: 80px;
+        color: black;
+        position: absolute;
+        left: 95px;
+        transform: rotate(-35deg);
+      }
+      :nth-child(3) {
+        margin-left: 60px;
       }
       div {
         display: flex;
-        margin-left: 20em;
+        margin-left: 240px;
         img {
           margin-top: 10px;
-          margin-left: 0;
           width: 30px;
           height: 30px;
         }
-        :nth-child(2) {
+        :nth-child(3) {
           margin-left: 0px;
         }
       }
@@ -71,7 +78,7 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: flex-end;
-      position: relative;
+      // position: relative;
     }
     .lip-img-container {
       display: flex;
@@ -81,14 +88,19 @@ body {
       .lip-image {
         height: 300px;
         position: absolute;
-        bottom: 100px;
+        bottom: 0;
         opacity: 0.8;
       }
     }
   }
+  .side-nav-container {
+    transform: rotate(-270deg);
+    .side-nav-link-container {
+    }
+  }
   .right-side-bar {
-    width: 30%;
-    min-width: 400px;
+    // width: 25%;
+    min-width: 500px;
     max-width: 500px;
     background-color: white;
     margin: 120px 80px 100px 0px;
@@ -115,17 +127,19 @@ body {
           width: 20%;
           position: absolute;
           text-align: center;
-          left: 170px;
+          right: 200px;
           bottom: -10px;
           border-width: 0 0 1px;
           border-style: solid;
         }
       }
       div {
+        display: flex;
+        justify-content: center;
         img {
           position: absolute;
           bottom: 100px;
-          right: 90px;
+          right: 6em;
         }
       }
     }
