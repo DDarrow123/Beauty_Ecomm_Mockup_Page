@@ -1,33 +1,22 @@
 const navContainer = document.querySelector(".nav-container");
-const navSiteName = document.querySelector(".site-name");
-const navSiteSpan = document.querySelector("span");
 
-function hoverNavLink() {
-  // const navContainer = document.querySelector(".nav-container");
-  // const navSiteName = document.querySelector(".site-name");
-  // const navSiteSpan = document.querySelector("span");
-  if (navContainer) {
-    navContainer.addEventListener("mouseover", event => {
-      if (event.target !== navSiteName) {
-        // debugger;
-        console.log(event.target);
-        // navSiteName.innerHTML = "Hi";
-        event.target.style.textDecorationLine = "underline";
-      }
-    });
+navContainer.addEventListener("mouseover", event => {
+  if (
+    event.target.children[0] &&
+    event.target.children[0].className &&
+    event.target.children[0].className === "nav-link"
+  ) {
+    event.target.style.textDecorationLine = "underline";
   }
-  hoverOffLink();
-}
+  // console.log(event.target);
+  // debugger;
+  if (event.target.className === "nav-cart") {
+    console.log(event.target);
+    event.target.style.textDecorationLine = "underline";
+  }
+});
 
-function hoverOffLink() {
-  navContainer.addEventListener("mouseout", event => {
-    // navSiteName.innerHTML = "avini<span>&#248</span>n";
-    event.target.style.textDecoration = "none";
-    // event.target.children[2].style.textDecoration = "none";
-    // event.target.children[3].style.textDecoration = "none";
-  });
-}
-
-hoverNavLink();
-
-// hoverOffLink();
+navContainer.addEventListener("mouseout", event => {
+  // navSiteName.innerHTML = "avini<span>&#248</span>n";
+  event.target.style.textDecoration = "none";
+});

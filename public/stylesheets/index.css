@@ -9,6 +9,7 @@ body {
 .main-container .left-side-bar {
   width: 60%;
   min-width: 800px;
+  max-width: 1000px;
   background-color: #f2e3da;
   height: 850px;
   margin: 120px 0px 100px 80px;
@@ -79,6 +80,7 @@ body {
 .main-container .right-side-bar {
   width: 30%;
   min-width: 400px;
+  max-width: 500px;
   background-color: white;
   margin: 120px 80px 100px 0px;
 }
@@ -115,7 +117,7 @@ body {
 .main-container .right-side-bar div div img {
   position: absolute;
   bottom: 100px;
-  right: 50px;
+  right: 90px;
 }
 
 /*# sourceMappingURL=index.css.map */
