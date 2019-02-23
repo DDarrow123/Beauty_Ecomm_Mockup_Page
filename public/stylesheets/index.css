@@ -34,10 +34,10 @@ body {
 }
 .main-container .left-side-bar .nav-container div {
   display: flex;
-  margin-left: 9em;
+  margin-left: 20em;
 }
 .main-container .left-side-bar .nav-container div img {
-  margin-top: 8px;
+  margin-top: 10px;
   margin-left: 0;
   width: 30px;
   height: 30px;
@@ -59,7 +59,7 @@ body {
   opacity: 0.4;
   font-family: "Six Caps", sans-serif;
   display: flex;
-  margin-top: 1.5em;
+  margin-top: 2em;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
@@ -69,12 +69,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .main-container .left-side-bar .lip-img-container .lip-image {
   height: 300px;
   position: absolute;
-  bottom: 0px;
+  bottom: 100px;
   opacity: 0.8;
 }
 .main-container .right-side-bar {

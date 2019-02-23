@@ -31,9 +31,9 @@ body {
       }
       div {
         display: flex;
-        margin-left: 9em;
+        margin-left: 20em;
         img {
-          margin-top: 8px;
+          margin-top: 10px;
           margin-left: 0;
           width: 30px;
           height: 30px;
@@ -67,7 +67,7 @@ body {
       opacity: 0.4;
       font-family: "Six Caps", sans-serif;
       display: flex;
-      margin-top: 1.5em;
+      margin-top: 2em;
       flex-direction: column;
       align-items: center;
       justify-content: flex-end;
@@ -77,13 +77,11 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 100px;
-      // position: absolute;
-
+      margin-top: 50px;
       .lip-image {
         height: 300px;
         position: absolute;
-        bottom: 0px;
+        bottom: 100px;
         opacity: 0.8;
       }
     }

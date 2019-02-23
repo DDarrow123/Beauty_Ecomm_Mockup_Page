@@ -8,8 +8,6 @@ navContainer.addEventListener("mouseover", event => {
   ) {
     event.target.style.textDecorationLine = "underline";
   }
-  // console.log(event.target);
-  // debugger;
   if (event.target.className === "nav-cart") {
     console.log(event.target);
     event.target.style.textDecorationLine = "underline";
